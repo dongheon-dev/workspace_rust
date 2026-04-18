@@ -4,6 +4,7 @@
 
 ### 0. install
 
+[windows]
 [homepage](https://rust-lang.org/) -> get started -> [download rustup-init.exe(x64)](https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe)
 
 **or**
@@ -34,17 +35,23 @@ rustc --version
 
 ### 1. Cargo: 빌드 시스템
 
-cargo new: 프로젝트 생성.
 
-cargo check: 컴파일 체크 (가장 빈번하게 사용).
+```bash
+# 프로젝트 생성.
+cargo new
 
-cargo build / run: 빌드 및 실행.
+# 컴파일 체크
+cargo check 
 
-cargo test : 유닛 및 통합 테스트 수행.
+# 빌드 및 실행
+cargo build / run
 
-cargo.toml : dependency 관리.
+# 유닛 및 통합 테스트 수행
+cargo test
 
-workspace: 멀티 크레이트 프로젝트 관리.
+# dependency 관리
+cargo.toml
+```
 
 <br>
 
