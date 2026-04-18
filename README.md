@@ -59,15 +59,15 @@ cargo test
 
 ### [2. 기초 문법 (Basics)](https://github.com/dongheon-dev/workspace_rust/blob/master/rust02_basics/rust02_basics.md)
 
-variable : let(불변), let mut(가변), Shadowing
+**variable** : let(불변), let mut(가변), shadowing
 
-데이터 타입:
+**type**:
 
-​	Scalar: i32, f64, bool, char
+- scalar: 정수, 실수, 논리, 문자
 
-​	Compound: tuple, array
+- compound: tuple, array
 
-함수: fn 정의 및 반환 타입(->)
+**function**
 
 <br>
 
