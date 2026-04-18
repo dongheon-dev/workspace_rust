@@ -29,6 +29,9 @@
   - tuple : 서로 다른 타입의 값을 담을 때
   - array : 같은 타입의 값을 담을 때
 
+- **String**
+  - &str : 문자열 슬라이스 (불변, 리터럴)
+  - String : 힙에 저장되는 가변 문자열 (ownership에서 자세히)
 
 
 ### 3. function
