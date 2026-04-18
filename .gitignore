@@ -1,13 +1,10 @@
 **/target/
 
+.idea/
+
 *.log
+*.swp
+*.tmp
 
 .DS_Store
 Thumbs.db
-
-.vscode/
-
-.idea/
-
-*.swp
-*.tmp
