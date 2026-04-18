@@ -59,19 +59,29 @@ cargo test
 
 ### 2. 기초 문법 (Basics)
 
-변수: let(불변), let mut(가변), Shadowing.
+변수 : let(불변), let mut(가변), Shadowing
 
 데이터 타입:
 
-Scalar: i32, f64, bool, char.
+​	Scalar: i32, f64, bool, char.
 
-Compound: tuple, array.
+​	Compound: tuple, array.
 
 함수: fn 정의 및 반환 타입(->)
 
 <br>
 
-### 3. 소유권과 빌림 (Ownership & Borrowing)
+### 3. 모듈 (Modules)
+
+mod : module
+
+pub : public (rust의 모든 요소는 기본적으로 private)
+
+use : 경로를 scope에 가져와 단축
+
+<br>
+
+### 4. 소유권과 빌림 (Ownership & Borrowing)
 
 소유권 규칙:
 
@@ -95,7 +105,7 @@ dangling reference 방지
 
 <br>
 
-### 4. 제어 흐름 & 패턴 매칭 (Control Flow & Pattern Matching)
+### 5. 제어 흐름 & 패턴 매칭 (Control Flow & Pattern Matching)
 
 조건문: if 표현식
 
@@ -117,7 +127,7 @@ destructuring
 
 <br>
 
-### 5. 표현식 vs 구문 (Expressions & Statements)
+### 6. 표현식 vs 구문 (Expressions & Statements)
 
 statements : 값 없음 (;)
 
@@ -125,7 +135,7 @@ expression : 값 반환
 
 <br>
 
-### 6. 사용자 정의 타입 (Custom Types)
+### 7. 사용자 정의 타입 (Custom Types)
 
 Structs: 데이터 구조화 + impl 메서드
 
@@ -137,7 +147,7 @@ null과 예외 처리 대체
 
 <br>
 
-### 7. 에러 핸들링 (Error Handling)
+### 8. 에러 핸들링 (Error Handling)
 
 Unrecoverable:
 
@@ -161,7 +171,7 @@ Result combinator (map, and_then)
 
 <br>
 
-### 8. 컬렉션과 반복자 (Collections & Iterators)
+### 9. 컬렉션과 반복자 (Collections & Iterators)
 
 Collections:
 
@@ -177,7 +187,7 @@ lazy evaluation
 
 <br>
 
-### 9. 제네릭과 트레이트 (Generics & Traits)
+### 10. 제네릭과 트레이트 (Generics & Traits)
 
 Generics:
 
@@ -194,20 +204,6 @@ derive (Debug, Clone 등)
 trait object (dyn Trait)
 
 static vs dynamic dispatch
-
-<br>
-
-### 10. 모듈 & 패키지 (Modules & Packages)
-
-모듈 시스템:
-
-mod, use, pub
-
-파일 기반 모듈 구조 (mod.rs 대체)
-
-crate
-
-외부 라이브러리 사용 (Cargo.toml)
 
 <br>
 
