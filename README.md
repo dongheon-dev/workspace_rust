@@ -57,7 +57,7 @@ cargo test
 
 <br>
 
-### 2. 기초 문법 (Basics)
+### [2. 기초 문법 (Basics)](https://github.com/dongheon-dev/workspace_rust/blob/master/rust02_basics/rust02_basics.md)
 
 variable : let(불변), let mut(가변), Shadowing
 
