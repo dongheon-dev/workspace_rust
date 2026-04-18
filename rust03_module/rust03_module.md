@@ -2,14 +2,6 @@
 
 
 
-**mod** : module
-
-**pub** : public (rust의 모든 요소는 기본적으로 private)
-
-**use** : 경로를 scope에 가져와 단축
-
-
-
 *main.rs*
 
 ```rust
@@ -37,6 +29,10 @@ fn main() {
     // hello::world();
 }
 ```
+
+
+
+---
 
 
 
@@ -99,6 +95,10 @@ fn main() {
 
 
 
+---
+
+
+
 ### directory 구분 (mod.rs)
 
 *hello02/communication.rs*
@@ -127,6 +127,10 @@ fn main() {
     greetings()
 }
 ```
+
+
+
+---
 
 
 
