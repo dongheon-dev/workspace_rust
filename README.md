@@ -30,7 +30,7 @@ rustc --version
 
 *terminal 에서 `rustup doc` 쳐도 공식문서 html 실행됨*
 
-
+<br>
 
 ### 1. Cargo: 빌드 시스템
 
@@ -46,7 +46,7 @@ cargo.toml : dependency 관리.
 
 workspace: 멀티 크레이트 프로젝트 관리.
 
-
+<br>
 
 ### 2. 기초 문법 (Basics)
 
@@ -60,7 +60,7 @@ Compound: tuple, array.
 
 함수: fn 정의 및 반환 타입(->)
 
-
+<br>
 
 ### 3. 소유권과 빌림 (Ownership & Borrowing)
 
@@ -84,7 +84,7 @@ Clone
 
 dangling reference 방지
 
-
+<br>
 
 ### 4. 제어 흐름 & 패턴 매칭 (Control Flow & Pattern Matching)
 
@@ -106,7 +106,7 @@ destructuring
 
 @ 바인딩
 
-
+<br>
 
 ### 5. 표현식 vs 구문 (Expressions & Statements)
 
@@ -114,7 +114,7 @@ statements : 값 없음 (;)
 
 expression : 값 반환
 
-
+<br>
 
 ### 6. 사용자 정의 타입 (Custom Types)
 
@@ -126,7 +126,7 @@ Option & Result:
 
 null과 예외 처리 대체
 
-
+<br>
 
 ### 7. 에러 핸들링 (Error Handling)
 
@@ -150,7 +150,7 @@ Result combinator (map, and_then)
 
 (anyhow, thiserror 등 실무 크레이트)
 
-
+<br>
 
 ### 8. 컬렉션과 반복자 (Collections & Iterators)
 
@@ -166,7 +166,7 @@ into_iter / iter / iter_mut 차이
 
 lazy evaluation
 
-
+<br>
 
 ### 9. 제네릭과 트레이트 (Generics & Traits)
 
@@ -186,7 +186,7 @@ trait object (dyn Trait)
 
 static vs dynamic dispatch
 
-
+<br>
 
 ### 10. 모듈 & 패키지 (Modules & Packages)
 
@@ -200,7 +200,7 @@ crate
 
 외부 라이브러리 사용 (Cargo.toml)
 
-
+<br>
 
 ### 11. 생명주기 (Lifetimes)
 
@@ -214,7 +214,7 @@ crate
 
 생략 규칙
 
-
+<br>
 
 ### 12. 스마트 포인터 (Smart Pointers)
 
@@ -226,7 +226,7 @@ Arc<T> (스레드 안전)
 
 RefCell<T> (내부 가변성)
 
-
+<br>
 
 ### 13. 동시성 (Concurrency)
 
@@ -238,7 +238,7 @@ Channel (메시지 패싱)
 
 Send / Sync
 
-
+<br>
 
 ### 14. Async
 
@@ -252,7 +252,7 @@ Pin / Unpin
 
 executor vs runtime
 
-
+<br>
 
 ### 15. Macro
 
@@ -260,7 +260,7 @@ macro_rules!
 
 derive macro (개념)
 
-
+<br>
 
 ### 16. Unsafe Rust
 
@@ -269,26 +269,4 @@ unsafe 키워드
 raw pointer
 
 FFI (C 연동)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
