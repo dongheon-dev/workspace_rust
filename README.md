@@ -10,7 +10,6 @@
 # visual studio build tools 필요!
 winget install -e --id Microsoft.VisualStudio.2022.BuildTools --override "--passive --wait --add Microsoft.VisualStudio.Workload.VCTools;includeRecommended"
 
-# terminal
 winget install Rustlang.Rustup
 
 # 새 창에서
@@ -81,197 +80,129 @@ cargo test
 
 <br>
 
-### 4. 소유권과 빌림 (Ownership & Borrowing)
+### **4. 소유권 (Ownership)**
 
-소유권 규칙:
+**move** : heap에 저장되는 타입은 대입 시 주인이 바뀜 -> 이전 변수 사용 불가
 
-owner는 하나
+**copy** : stack에 저장되는 타입은 대입 시 값만 복사됨 -> 이전 변수 사용 가능
 
-scope 벗어나면 drop
+**clone** : 명시적 복제 (deep copy)
 
-move 발생
-
-move vs copy
-
-Clone
-
-빌림(Borrowing):
-
-&T(불변 참조)
-
-&mut T(가변 참조)
-
-dangling reference 방지
+**borrowing** : 소유권을 넘기지 않고 데이터 참조 (reference) 
 
 <br>
 
-### 5. 제어 흐름 & 패턴 매칭 (Control Flow & Pattern Matching)
+### **5. 생명주기 (Lifetimes)**
+
+개념:
+참조 유효 범위 명시
+표기법:
+<'a>
+생략 규칙
+closure
+
+<br>
+
+### **6. 제어 흐름 (Control Flow)**
 
 조건문: if 표현식
-
 반복문: loop, while, for in
-
 패턴 매칭:
-
 match
-
 if let
-
 while let
-
 match guard
-
 destructuring
-
 @ 바인딩
 
 <br>
 
-### 6. 표현식 vs 구문 (Expressions & Statements)
-
-statements : 값 없음 (;)
-
-expression : 값 반환
-
-<br>
-
-### 7. 사용자 정의 타입 (Custom Types)
+### **7. 사용자 정의 타입 (Custom Types)**
 
 Structs: 데이터 구조화 + impl 메서드
-
 Enums: 데이터를 담는 ADT
-
 Option & Result:
-
 null과 예외 처리 대체
 
 <br>
 
-### 8. 에러 핸들링 (Error Handling)
-
-Unrecoverable:
-
-panic! 매크로
-
-Recoverable:
-
-Result<T, E>
-
-에러 전파:
-
-? 연산자
-
-추가:
-
-Result combinator (map, and_then)
-
-커스텀 에러 타입
-
-(anyhow, thiserror 등 실무 크레이트)
-
-<br>
-
-### 9. 컬렉션과 반복자 (Collections & Iterators)
+### **8. 컬렉션과 반복자 (Collections & Iterators)**
 
 Collections:
-
 Vec<T>, String, HashMap<K, V>
-
 Iterator:
-
 map, filter, collect
-
 into_iter / iter / iter_mut 차이
-
 lazy evaluation
 
 <br>
 
-### 10. 제네릭과 트레이트 (Generics & Traits)
+### **9. 제네릭과 트레이트 (Generics & Traits)**
 
 Generics:
-
 타입 매개변수
-
 Traits:
-
 인터페이스 정의
-
 Trait Bounds
-
 derive (Debug, Clone 등)
-
 trait object (dyn Trait)
-
 static vs dynamic dispatch
 
 <br>
 
-### 11. 생명주기 (Lifetimes)
+### **10. 에러 핸들링 (Error Handling)**
 
-개념:
-
-참조 유효 범위 명시
-
-표기법:
-
-<'a>
-
-생략 규칙
+Unrecoverable:
+panic! 매크로
+Recoverable:
+Result<T, E>
+에러 전파:
+? 연산자
+추가:
+Result combinator (map, and_then)
+커스텀 에러 타입
+(anyhow, thiserror 등 실무 크레이트)
 
 <br>
 
-### 12. 스마트 포인터 (Smart Pointers)
+### **11. 스마트 포인터 (Smart Pointers)**
 
 Box<T> (힙 할당)
-
 Rc<T> (참조 카운트)
-
 Arc<T> (스레드 안전)
-
 RefCell<T> (내부 가변성)
 
 <br>
 
-### 13. 동시성 (Concurrency)
+### **12. 동시성 (Concurrency)**
 
 Thread
-
 Mutex
-
 Channel (메시지 패싱)
-
 Send / Sync
 
 <br>
 
-### 14. Async
+### **13. Async**
 
 Future
-
 async / await
-
 Tokio 런타임
-
 Pin / Unpin
-
 executor vs runtime
 
 <br>
 
-### 15. Macro
+### **14. Macro**
 
 macro_rules!
-
 derive macro (개념)
 
 <br>
 
-### 16. Unsafe Rust
+### **15. Unsafe Rust**
 
 unsafe 키워드
-
 raw pointer
-
 FFI (C 연동)
 
