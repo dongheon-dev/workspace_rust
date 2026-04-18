@@ -5,11 +5,11 @@
 ### 0. install
 
 [windows]
-[homepage](https://rust-lang.org/) -> get started -> [download rustup-init.exe(x64)](https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe)
-
-**or**
 
 ```bash
+# visual studio build tools 필요!
+winget install -e --id Microsoft.VisualStudio.2022.BuildTools --override "--passive --wait --add Microsoft.VisualStudio.Workload.VCTools;includeRecommended"
+
 # terminal
 winget install Rustlang.Rustup
 
