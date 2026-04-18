@@ -59,13 +59,13 @@ cargo test
 
 ### 2. 기초 문법 (Basics)
 
-변수 : let(불변), let mut(가변), Shadowing
+variable : let(불변), let mut(가변), Shadowing
 
 데이터 타입:
 
-​	Scalar: i32, f64, bool, char.
+​	Scalar: i32, f64, bool, char
 
-​	Compound: tuple, array.
+​	Compound: tuple, array
 
 함수: fn 정의 및 반환 타입(->)
 
@@ -73,11 +73,11 @@ cargo test
 
 ### [3. 모듈 (Modules)](https://github.com/dongheon-dev/workspace_rust/blob/master/rust03_module/rust03_module.md)
 
-mod : module
+**mod** : module
 
-pub : public (rust의 모든 요소는 기본적으로 private)
+**pub** : public (rust의 모든 요소는 기본적으로 private)
 
-use : 경로를 scope에 가져와 단축
+**use** : 경로를 scope에 가져와 단축 (aliasing)
 
 <br>
 
