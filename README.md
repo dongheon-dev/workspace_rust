@@ -49,8 +49,6 @@ cargo build / run
 # 유닛 및 통합 테스트 수행
 cargo test
 
-# dependency 관리
-cargo.toml
 ```
 
 <br>
