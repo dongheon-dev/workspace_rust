@@ -19,11 +19,15 @@ rustc --version
 # 2026.04.18 기준 1.95.0
 ```
 
+<br>
+
 
 
 **rust ide**
 
 [rustrover](https://www.jetbrains.com/rust/) : jetbrains 에서 만든 rust용 ide. (하지만 대부분 vsc 사용하는 듯)
+
+<br>
 
 
 
@@ -33,7 +37,7 @@ rustc --version
 
 <br>
 
-### 1. [Cargo: 빌드 시스템](https://github.com/dongheon-dev/workspace_rust/blob/master/rust01_cargo/rust01_cargo.md)
+### [1. Cargo: 빌드 시스템](https://github.com/dongheon-dev/workspace_rust/blob/master/rust01_cargo/rust01_cargo.md)
 
 
 ```bash
