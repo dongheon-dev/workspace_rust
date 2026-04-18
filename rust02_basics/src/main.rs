@@ -60,6 +60,14 @@ fn main() {
 
     let result = add(4, 5);
     println!("{}", result);
+
+    // 문자열
+    // &str : 문자열 슬라이스 (불변, 리터럴)
+    // String : 힙에 저장되는 가변 문자열 (ownership에서 자세히)
+    let s1: &str = "hello";
+    println!("{}", s1);
+    let s2 = String::from("hello");
+    println!("{}", s2);
 }
 
 fn add(a: i32, b: i32) -> i32 {
