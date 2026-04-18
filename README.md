@@ -80,7 +80,7 @@ cargo test
 
 <br>
 
-### **4. 소유권 (Ownership)**
+### [**4. 소유권 (Ownership)**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust04_ownership/rust04_ownership.md)
 
 **move** : heap에 저장되는 타입은 대입 시 주인이 바뀜 -> 이전 변수 사용 불가
 
