@@ -30,7 +30,11 @@ rustc --version
 
 
 
-[공식문서](https://rust-lang.org/learn/)
+[홈페이지](https://rust-lang.org/) -> learn 
+
+-> read the book! : [개념](https://doc.rust-lang.org/book/)
+
+-> the standard library : [api](https://doc.rust-lang.org/std/index.html)
 
 *terminal 에서 `rustup doc` 쳐도 공식문서 html 실행됨*
 
