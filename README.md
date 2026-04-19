@@ -92,14 +92,17 @@ cargo test
 
 <br>
 
-### **5. 생명주기 (Lifetimes)**
+### [**5. 생명주기 (Lifetimes)**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust05_lifetimes/rust05_lifetimes.md)
 
-개념:
-참조 유효 범위 명시
-표기법:
-<'a>
-생략 규칙
-closure
+**dangling reference** : 허상 참조. 참조 변수가 가리키는 값이 먼저 drop되어 유효하지 않은 주소를 가리키게 되는 것
+
+**'a** (lifetime annotation) : 참조된 값의 scope를 명시
+
+**borrow** : ownership의 이전 없이 참조
+
+**move** : ownership이 이전됨
+
+**static** : binary에 저장. 프로그램 종료 시 까지 남아있음
 
 <br>
 
