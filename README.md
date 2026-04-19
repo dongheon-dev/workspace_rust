@@ -66,9 +66,9 @@ cargo test
 
 **type**:
 
-- scalar: 정수, 실수, 논리, 문자
+- scalar : 정수, 실수, 논리, 문자
 
-- compound: tuple, array
+- compound : tuple, array
 
 **function**
 
