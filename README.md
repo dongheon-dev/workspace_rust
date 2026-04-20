@@ -110,7 +110,7 @@ cargo test
 
 <br>
 
-### **6. 제어 흐름 (Control Flow)**
+[### **6. 제어 흐름 (Control Flow)**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust06_control/rust06_control.md)
 
 **조건문**
 
