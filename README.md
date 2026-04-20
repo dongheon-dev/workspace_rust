@@ -112,15 +112,26 @@ cargo test
 
 ### **6. 제어 흐름 (Control Flow)**
 
-조건문: if 표현식
-반복문: loop, while, for in
-패턴 매칭:
-match
-if let
-while let
-match guard
-destructuring
-@ 바인딩
+**조건문**
+
+- if
+
+**반복문**
+
+- loop
+- while
+- for
+
+**match**
+
+- match guard : match + 조건 (패턴 매칭 후 추가 조건 검사)
+- @ binding : 패턴 매칭 + 값 바인딩 (전체 값을 변수로 저장하면서 매칭)
+
+**let expression**
+
+- if let : match 간결화 (syntax sugar) -> 특정 pattern 하나만 확인
+- while let : 패턴이 계속 매칭되는 동안 반복 (match + loop 형태)
+- let else : 패턴이 실패하면 즉시 탈출 (early exit), 성공하면 변수 바인딩
 
 <br>
 
