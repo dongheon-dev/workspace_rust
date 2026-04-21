@@ -149,15 +149,15 @@ cargo test
 ### [**8. 컬렉션 (Collections & Iterators)**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust08_collection/rust08_collection.md)
 
 - **Collections**
-  - vec
-  - string
-  - map
-  - set
+  - vec : 가변 배열
+  - string : 문자열
+  - map : key-value 구조
+  - set : 중복 X
 
 - **Iterators**
-  - map, filter, fold
-  - iter  / into_iter / iter_mut / flatmap
-  - lazy evaluation
+  - map (값 변환), filter (조건 필터링), fold (누적 연산)
+  - iter (borrow), into_iter (ownership move), iter_mut (modify), flat_map(flatten)
+  - lazy evaluation : collect 호출 시 실행
 
 <br>
 
