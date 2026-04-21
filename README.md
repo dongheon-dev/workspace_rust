@@ -146,14 +146,18 @@ cargo test
 
 <br>
 
-### **8. 컬렉션과 반복자 (Collections & Iterators)**
+### [**8. 컬렉션 (Collections & Iterators)**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust08_collection/rust08_collection.md)
 
-Collections:
-Vec<T>, String, HashMap<K, V>
-Iterator:
-map, filter, collect
-into_iter / iter / iter_mut 차이
-lazy evaluation
+- **Collections**
+  - vec
+  - string
+  - map
+  - set
+
+- **Iterators**
+  - map, filter, fold
+  - iter  / into_iter / iter_mut / flatmap
+  - lazy evaluation
 
 <br>
 
