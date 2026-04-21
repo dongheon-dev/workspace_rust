@@ -135,12 +135,14 @@ cargo test
 
 <br>
 
-### **7. 사용자 정의 타입 (Custom Types)**
+### [**7. ADT (Algebraic Data Type)**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust07_adt/rust07_adt.md)
 
-Structs: 데이터 구조화 + impl 메서드
-Enums: 데이터를 담는 ADT
-Option & Result:
-null과 예외 처리 대체
+- **Product Type (And)**
+  - Struct : 데이터 구조화
+- **Sum Type (OR)**
+  - Enums : 여러 variant를 하나의 type으로
+  - Option : 값의 유무
+  - Result : 성공 / 실패
 
 <br>
 
@@ -168,22 +170,24 @@ static vs dynamic dispatch
 
 <br>
 
-### **10. 에러 핸들링 (Error Handling)**
+### **10. crate**
+<br>
 
-Unrecoverable:
-panic! 매크로
-Recoverable:
-Result<T, E>
-에러 전파:
-? 연산자
-추가:
-Result combinator (map, and_then)
-커스텀 에러 타입
-(anyhow, thiserror 등 실무 크레이트)
+### **11. io**
 
 <br>
 
-### **11. 스마트 포인터 (Smart Pointers)**
+### 12. 에러 처리 (Error Handling)**
+
+**panic!** (Unrecoverable)
+
+**Result<T, E>** (Recoverable)
+
+anyhow, thiserror
+
+<br>
+
+### **13. 스마트 포인터 (Smart Pointers)**
 
 Box<T> (힙 할당)
 Rc<T> (참조 카운트)
@@ -192,7 +196,7 @@ RefCell<T> (내부 가변성)
 
 <br>
 
-### **12. 동시성 (Concurrency)**
+### **14. 동시성 (Concurrency)**
 
 Thread
 Mutex
@@ -201,7 +205,7 @@ Send / Sync
 
 <br>
 
-### **13. Async**
+### 15. Async**
 
 Future
 async / await
@@ -211,14 +215,14 @@ executor vs runtime
 
 <br>
 
-### **14. Macro**
+### **16. Macro**
 
 macro_rules!
 derive macro (개념)
 
 <br>
 
-### **15. Unsafe Rust**
+### **17. Unsafe Rust**
 
 unsafe 키워드
 raw pointer
