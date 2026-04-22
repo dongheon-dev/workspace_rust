@@ -137,40 +137,48 @@ cargo test
 
 ### [**7. ADT (Algebraic Data Type)**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust07_adt/rust07_adt.md)
 
-- **Product Type (And)**
-  - Struct : 데이터 구조화
-- **Sum Type (OR)**
-  - Enums : 여러 variant를 하나의 type으로
-  - Option : 값의 유무
-  - Result : 성공 / 실패
+**Product Type (And)**
+
+- Struct : 데이터 구조화
+
+**Sum Type (OR)**
+
+- Enums : 여러 variant를 하나의 type으로
+- Option : 값의 유무
+- Result : 성공 / 실패
 
 <br>
 
 ### [**8. 컬렉션 (Collections & Iterators)**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust08_collection/rust08_collection.md)
 
-- **Collections**
-  - vec : 가변 배열
-  - string : 문자열
-  - map : key-value 구조
-  - set : 중복 X
+**Collections**
 
-- **Iterators**
-  - map (값 변환), filter (조건 필터링), fold (누적 연산)
-  - iter (borrow), into_iter (ownership move), iter_mut (modify), flat_map(flatten)
-  - lazy evaluation : collect 호출 시 실행
+- vec : 가변 배열
+- string : 문자열
+- map : key-value 구조
+- set : 중복 X
+
+**Iterators**
+
+- map (값 변환), filter (조건 필터링), fold (누적 연산)
+- iter (borrow), into_iter (ownership move), iter_mut (modify), flat_map(flatten)
+- lazy evaluation : collect 호출 시 실행
 
 <br>
 
 ### [**9. 제네릭과 트레이트 (Generics & Traits)**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust09_generic_trait/rust09_generic_trait.md)
 
-- **generic** : type 유연성
-  - function : 함수 뒤에 <T>
-  - struct : 구조체 뒤에 <T>
-  - method generic : impl 시 <T>
-- **trait** : behavior 정의 및 구현 (interface)
-  - trait bound : 특정 기능 (trait) 을 가진 type으로 generic 제한 -> where (syntax sugar)
-  - trait object (dyn trait) : 서로 다른 type을 하나의 type으로 묶을 때
-  - static / dynamic dispatch : 함수 호출 시 생성
+**generic** : type 유연성
+
+- function : 함수 뒤에 <T>
+- struct : 구조체 뒤에 <T>
+- method generic : impl 시 <T>
+
+**trait** : behavior 정의 및 구현 (interface)
+
+- trait bound : 특정 기능 (trait) 을 가진 type으로 generic 제한 -> where (syntax sugar)
+- trait object (dyn trait) : 서로 다른 type을 하나의 type으로 묶을 때
+- static / dynamic dispatch : 함수 호출 시 생성
 
 <br>
 
