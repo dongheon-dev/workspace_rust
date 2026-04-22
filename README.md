@@ -161,16 +161,16 @@ cargo test
 
 <br>
 
-### **9. 제네릭과 트레이트 (Generics & Traits)**
+### [**9. 제네릭과 트레이트 (Generics & Traits)**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust09_generic_trait/rust09_generic_trait.md)
 
-Generics:
-타입 매개변수
-Traits:
-인터페이스 정의
-Trait Bounds
-derive (Debug, Clone 등)
-trait object (dyn Trait)
-static vs dynamic dispatch
+- **generic** : type 유연성
+  - function : 함수 뒤에 <T>
+  - struct : 구조체 뒤에 <T>
+  - method generic : impl 시 <T>
+- **trait** : behavior 정의 및 구현 (interface)
+  - trait bound : 특정 기능 (trait) 을 가진 type으로 generic 제한 -> where (syntax sugar)
+  - trait object (dyn trait) : 서로 다른 type을 하나의 type으로 묶을 때
+  - static / dynamic dispatch : 함수 호출 시 생성
 
 <br>
 
