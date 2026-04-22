@@ -38,7 +38,7 @@ pub fn generic_function() {
 
 ```
 
-
+<br>
 
 *generics/ge02_struct.rs*
 
@@ -65,7 +65,7 @@ pub fn generic_struct() {
 
 ```
 
-
+<br>
 
 *generics/ge03_enum.rs*
 
@@ -112,7 +112,7 @@ pub fn generic_enum() {
 
 ```
 
-
+<br>
 
 *generics/ge04_method.rs*
 
@@ -158,7 +158,7 @@ pub fn generic_method() {
 
 ```
 
-
+<br>
 
 
 
@@ -214,7 +214,7 @@ pub fn trait_basic() {
 
 ```
 
-
+<br>
 
 #### 2-2. trait bound
 
@@ -274,7 +274,7 @@ pub fn trait_bound() {
 
 ```
 
-
+<br>
 
 #### 2-3. trait object (= dyn trait)
 
@@ -339,7 +339,7 @@ pub fn trait_object() {
 
 ```
 
-
+<br>
 
 #### 2-4. dispatch
 
@@ -369,6 +369,8 @@ animal = {
 +----------------------+
 */
 ```
+
+<br>
 
 *traits/tr04_dispatch.rs*
 
