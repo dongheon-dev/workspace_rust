@@ -206,7 +206,17 @@ cargo test
 
 <br>
 
-### **10. crate**
+### [**10. crate**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust10_crate/rust10_crate.md)
+
+**crate** : compile 최소 단위
+
+- binary crate : src/main.rs + fn main() -> 실행 가능한 program
+- library crate : src/lib.rs -> 다른 program 에서 사용할 수 있도록 하는 기능들의 집합
+
+**package** : crate 의 묶음 (Cargo.toml) = project 
+
+**library** : 재사용 가능한 crate 
+
 <br>
 
 ### **11. io**
