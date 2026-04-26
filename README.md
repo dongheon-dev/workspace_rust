@@ -22,6 +22,32 @@ rustc --version
 
 
 
+[os x]
+
+```bash
+# install
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# enter (default 로 설치)
+
+# bin directory를 path에 등록
+sudo vim ~/.zshrc
+
+# rust
+export PATH=$PATH:"/Users/dongheon_mac/.cargo/bin"
+
+:wq!
+
+source ~/.zshrc
+
+cargo --version
+rustc --version
+# 2026.04.26 기준 1.95.0
+```
+
+<br>
+
+
+
 **rust ide**
 
 [rustrover](https://www.jetbrains.com/rust/) : jetbrains 에서 만든 rust용 ide. (하지만 대부분 vsc 사용하는 듯)
