@@ -20,8 +20,6 @@ rustc --version
 
 <br>
 
-
-
 [os x]
 
 ```bash
