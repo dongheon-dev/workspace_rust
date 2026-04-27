@@ -206,7 +206,7 @@ cargo test
 
 <br>
 
-### [**10. crate**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust10_crate/rust10_crate.md)
+### [**10. Crate**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust10_crate/rust10_crate.md)
 
 **crate** : compile 최소 단위
 
@@ -219,7 +219,7 @@ cargo test
 
 <br>
 
-### [**11. io**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust11_io/rust11_io.md)
+### [**11. IO Network**](https://github.com/dongheon-dev/workspace_rust/blob/master/rust11_io/rust11_io.md)
 
 **io** : input / output stream
 
